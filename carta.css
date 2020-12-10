@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;;
+    background-image: url("img2.jpg") ;
+
+}
+.contenedor {
+    width:1300px;
+    margin: 0px auto;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4a5ae+0,fcbdf2+96 */
+background: #f4a5ae; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f4a5ae 0%, #fcbdf2 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f4a5ae 0%,#fcbdf2 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f4a5ae 0%,#fcbdf2 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a5ae', endColorstr='#fcbdf2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    
+}
+header nav {
+
+    background-color:rgb(113, 201, 155) ;
+   /* background-color: #698797; */
+    padding: 40px;
+    text-align: center;
+   
+}
+
+header nav a {
+    display: inline-block;
+    padding:20px;
+    margin: 0px 10px ;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Lobster', cursive; ;
+    
+}
+header nav a:hover {
+    background-color: #469172;
+    color: #fff;
+}
+
+main {
+    padding: 30px;
+    /* margin: 20px; */
+    text-align: justify;
+  
+}
+
+main .saludo h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 60px;
+}
+
+main p {
+    margin: 30px 12px;
+    font-family: 'Lobster', cursive; 
+    color: rgb(243, 42, 159);
+    text-align: justify;
+    font-size: 25px;
+}
+
+main .lista {
+    padding: 20px;
+}
+
+main section h2 {
+color: #fff;
+   font-size: 40px;
+   margin-bottom: 20px ;
+}
+main .lista ol li {
+    margin: 20px;
+    padding: 20px;
+    font-size: 35px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #0d0f1d;
+
+}
+main .lista ol li img {
+    height: 200px;
+}
+
+main .despedida {
+    padding:20px;
+    
+}
+
+footer {
+    /* margin: 20px; */
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(113, 201, 155) ;
+}
+
+footer .autor p {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+footer .redes-sociales a {
+    display: inline-block;
+    padding: 30px;
+    color: #fff;
+    font-size: 50px;
+}
+
+footer .redes-sociales a:hover {
+    background-color: #469172;
+    color: #fff;
+}
+
+
+
+
